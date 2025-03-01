@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 2 Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg" style="background-color: #cced1d;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="NCT logo" width="30" height="24" class="d-inline-block align-text-top"> NCT
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">My Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactus">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!--close navabar-->
+
+    <!--carousell-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="c1.jpeg" class="d-block w-100" alt="NCT">
+          </div>
+          <div class="carousel-item">
+            <img src="c2.jpg" class="d-block w-100" alt="NCT">
+          </div>
+          <div class="carousel-item">
+            <img src="c3.jpg" class="d-block w-100" alt="NCT">
+          </div>  
+          <div class="carousel-item">
+            <img src="c4.jpg" class="d-block w-100" alt="NCT">            
+          </div>
+          <div class="carousel-item">
+            <img src="c5.jpg" class="d-block w-100" alt="NCT">            
+          </div>          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--close carousell-->
+
+<br>
+
+    <!--gallery column-->
+    <div class="container text-center" id="gallery">
+        
+        <!--row 1-->
+        <div class="row">
+            <div class="col">
+                <div class="card"style="width: 18rem;">
+                <img src=" r1c1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Johnny</h5>
+                        <p class="card-text">1995.02.09<br>NCT U, 127</p>
+                        <a href="#" class="btn btn-outline-primary">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"style="width: 18rem;">
+                <img src="r1c2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Doyoung</h5>
+                        <p class="card-text">1996.02.01<br>NCT U, 127, DOJAEJUNG</p>
+                        <a href="#" class="btn btn-outline-primary">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"style="width: 18rem;">
+                    <img src="r1c3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jaehyun</h5>
+                        <p class="card-text">1997.02.14<br>NCT U, 127, DOJAEJUNG</p>
+                        <a href="#" class="btn btn-outline-primary">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"style="width: 18rem;">
+                    <img src="r1c4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jungwoo</h5>
+                        <p class="card-text">1998.02.19<br>NCT U, 127, DOJAEJUNG</p>
+                        <a href="#" class="btn btn-outline-primary">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--row 2-->
+        <div class="row">
+            <div class="col">
+                <div class="card"style="width: 18rem;">
+                <img src="r2c1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mark</h5>
+                        <p class="card-text">1999.08.02<br>NCT U, 127, DREAM</p>
+                        <a href="#" class="btn btn-outline-primary">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"style="width: 18rem;">
+                <img src="r2c2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeno</h5>
+                        <p class="card-text">2000.04.23<br>NCT U, DREAM</p>
+                        <a href="#" class="btn btn-outline-primary">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"style="width: 18rem;">
+                    <img src="r2c3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jaemin</h5>
+                        <p class="card-text">2000.08.13<br>NCT U, DREAM</p>
+                        <a href="#" class="btn btn-outline-primary">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"style="width: 18rem;">
+                    <img src="r2c4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sion</h5>
+                        <p class="card-text">2002.05.11<br>NCT WISH</p>
+                        <a href="#" class="btn btn-outline-primary">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--row 3-->
+        <div class="row">
+            <div class="col">
+                <div class="card"style="width: 18rem;">
+                <img src="r3c1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Riku</h5>
+                        <p class="card-text">2003.06.28<br>NCT WISH</p>
+                        <a href="#" class="btn btn-outline-primary">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"style="width: 18rem;">
+                <img src="r3c2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Yushi</h5>
+                        <p class="card-text">2004.04.05<br>NCT WISH</p>
+                        <a href="#" class="btn btn-outline-primary">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"style="width: 18rem;">
+                    <img src="r3c3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ryo</h5>
+                        <p class="card-text">2007.08.04<br>NCT WISH</p>
+                        <a href="#" class="btn btn-outline-primary">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"style="width: 18rem;">
+                    <img src="r3c4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sakuya</h5>
+                        <p class="card-text">2007.11.18<br>NCT WISH</p>
+                        <a href="#" class="btn btn-outline-primary">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--close gallery column-->
+
+<br>
+<br>
+
+    <!--my team-->
+    <div class="container text-center" id="team">
+        <h3>My Team</h3>
+        <div class="row">
+            <div class="col">
+                <div class="card"style="width: 18rem;">
+                <img src="t1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">NCT 127</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-outline-primary">Select</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"style="width: 18rem;">
+                <img src="t2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">NCT DREAM</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-outline-primary">Select</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"style="width: 18rem;">
+                    <img src="t3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">WAYV</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-outline-primary">Select</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"style="width: 18rem;">
+                    <img src="t4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">NCT WISH</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-outline-primary">Select</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!--end my team-->
+<br>
+<br>
+    <!--contact us-->
+    <div class="container text-start" id="contactus">
+        <div class="row">
+          <div class="col">
+            <div class="mb-3">
+                <h4>Contact Us</h4>
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="neocity@kwangya.co">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Questions/Suggestions</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </div>
+          <div class="col">
+            <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20seoul+(NCT)&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.easybooking.eu/'>Easybooking.eu</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=600e4153026ea1221d29e738416968ded3136636'></script>
+          </div>
+        </div>
+      </div>
+    <!--end contact us-->
+
+    <!--footer-->
+    <footer class="bg-body-tertiary text-center">
+        <!-- Grid container -->
+        <div class="container p-4"></div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2025 Copyright:
+          <a class="text-body" href="https://github.com/rkr-a">Raielle Aladin</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!--end footer-->
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
